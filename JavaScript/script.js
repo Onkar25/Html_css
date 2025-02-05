@@ -60,4 +60,17 @@ let cont = document.body;
 // document
 //   .querySelector(".container")
 //   .setAttribute("style", "background-color: red");
-console.log(document.querySelector(".container").attributes);
+// console.log(document.querySelector(".container").attributes);
+
+// IMPORTANT
+// document.designMode = "on";
+
+// Insert and remove
+// let div = document.createElement("div");
+// div.innerHTML = "I have been created by <b> Crooks </b>";
+// div.setAttribute("class", "created");
+// document.querySelector(".container").append(div);
+console.log(document.querySelector(".container").classList);
+console.log(document.querySelector(".container").className);
+
+// https://www.youtube.com/watch?v=mCx5aSEK8YE&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=72
